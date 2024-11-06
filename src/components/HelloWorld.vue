@@ -11,9 +11,16 @@ const count = ref(0);
 <template>
   <h1>{{ msg }}</h1>
 
-  <div class="card">
-    <v-btn color="primary" @click="count++"> Button {{ count }} </v-btn>
-  </div>
+    <v-card class="pa-4">
+      <div class="custom-padding-card">
+        <v-btn color="primary" @click="count++"> Button {{ count }} </v-btn>
+      </div>
+    </v-card>
+
 </template>
 
-<style scoped></style>
+<style scoped>
+.custom-padding-card {
+  padding: 16px;
+}
+</style>
