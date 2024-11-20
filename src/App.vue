@@ -1,6 +1,7 @@
 <script setup>
 // import HelloWorld from "./components/HelloWorld.vue";
-import Todos from "./components/todolist.vue";
+// import Todos from "./components/todolist.vue";
+import UserData from "./components/UserDataGet.vue";
 </script>
 
 <template>
@@ -8,7 +9,8 @@ import Todos from "./components/todolist.vue";
     <v-row>
       <v-col xl="12" md="12">
         <!-- <HelloWorld msg="Vite + Vue" /> -->
-        <Todos />
+        <!-- <Todos /> -->
+         <UserData/>
       </v-col>
     </v-row>
   </v-container>
